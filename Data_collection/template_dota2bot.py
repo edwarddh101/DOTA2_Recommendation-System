@@ -97,3 +97,17 @@ if __name__ == '__main__':
 
     setup()
     main()
+
+
+def zip_to_df(zip_file):
+    with zipfile.ZipFile(zip_file, 'r') as myzip:
+        return pd.concat((log_as_df(loglife, myzip)
+                             for logfile in myzip.namelist()),
+                         ignore_index=True)
+
+def log_as_df(logfile, myzip):
+    with myzip.open(logfile, 'r') as f:
+        contents = f.readlines()[-2]
+        return pd.read_json(contents)
+
+df = pd.concat(map(zip_to_df, glob.glob('*.zip')), ignore_index=True)

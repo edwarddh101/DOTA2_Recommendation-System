@@ -1,0 +1,2 @@
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.steampowered.com', port=443): Max retries exceeded with url: /IDOTA2Match_570/GetMatchHistoryBySequenceNum/v0001/?language=en_us&start_at_match_seq_num=24382&key=3A0C5D8A8716C8E1C3F5FE9685AA75CA&format=json (Caused by NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7fb303020210>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
