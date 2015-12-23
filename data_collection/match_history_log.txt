@@ -1,0 +1,21 @@
+Process 100 request use time: 0:07:35.482872
+Process 200 request use time: 0:15:21.253305
+Process 300 request use time: 0:23:05.892900
+Next Seq_Num:1704455240, Current Match Date:2015-11-11 
+Current Request: 299, Current time: 2015-12-22 14:16:12.218660, Running time: 0:00:18.856323
+Current Request: 400, Current time: 2015-12-22 14:24:10.748446, Running time: 0:08:17.386109
+Current Seq_Num:1704473250, Current Match Date:2015-11-11 03:59:39 
+Current Request: 500, Current time: 2015-12-22 14:31:50.602426, Running time: 0:15:57.240089
+Current Seq_Num:1704491073, Current Match Date:2015-11-11 04:16:39 
+Current Request: 600, Current time: 2015-12-22 14:39:36.661905, Running time: 0:23:43.299568
+Current Seq_Num:1704508721, Current Match Date:2015-11-11 04:32:00 
+Current Request: 700, Current time: 2015-12-22 14:47:12.464992, Running time: 0:31:19.102655
+Current Seq_Num:1704526361, Current Match Date:2015-11-11 04:45:05 
+Current Request: 800, Current time: 2015-12-22 14:54:59.054302, Running time: 0:39:05.691965
+Current Seq_Num:1704544215, Current Match Date:2015-11-11 04:39:26 
+Current Request: 900, Current time: 2015-12-22 15:02:48.712141, Running time: 0:46:55.349804
+Current Seq_Num:1704562148, Current Match Date:2015-11-11 05:06:22 
+Current Request: 1000, Current time: 2015-12-22 15:10:35.732061, Running time: 0:54:42.369724
+Current Seq_Num:1704580086, Current Match Date:2015-11-11 05:16:55 
+Current Request: 1100, Current time: 2015-12-22 15:18:07.467254, Running time: 1:02:14.104917
+Current Seq_Num:1704597833, Current Match Date:2015-11-11 05:28:50 
