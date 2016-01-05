@@ -19,3 +19,142 @@ Current Request: 1000, Current time: 2015-12-22 15:10:35.732061, Running time: 0
 Current Seq_Num:1704580086, Current Match Date:2015-11-11 05:16:55 
 Current Request: 1100, Current time: 2015-12-22 15:18:07.467254, Running time: 1:02:14.104917
 Current Seq_Num:1704597833, Current Match Date:2015-11-11 05:28:50 
+Current Request: 1105, Current time: 2015-12-24 01:02:55.888753, Running time: 0:01:21.416730
+Current Request: 1240, Current time: 2015-12-24 04:47:50.004998, Running time: 0:01:32.434784
+Current Request: 2000, Current time: 2015-12-24 05:48:33.243851, Running time: 1:02:15.673637
+Current Seq_Num:1704759244, Current Match Date:2015-11-11 14:35:31 
+Current Request: 3000, Current time: 2015-12-24 07:06:01.846580, Running time: 2:19:44.276366
+Current Seq_Num:1704932946, Current Match Date:2015-11-11 16:31:53 
+Current Request: 4000, Current time: 2015-12-24 08:23:40.501069, Running time: 3:37:22.930855
+Current Seq_Num:1705099226, Current Match Date:2015-11-11 18:55:05 
+Current Request: 5000, Current time: 2015-12-24 09:41:25.983997, Running time: 4:55:08.413783
+Current Seq_Num:1705260229, Current Match Date:2015-11-11 21:53:49 
+Current Request: 6000, Current time: 2015-12-24 10:59:05.940695, Running time: 6:12:48.370481
+Current Seq_Num:1705431239, Current Match Date:2015-11-12 02:00:44 
+Current Request: 7000, Current time: 2015-12-24 12:16:45.577874, Running time: 7:30:28.007660
+Current Seq_Num:1705614118, Current Match Date:2015-11-12 05:59:05 
+Current Request: 8000, Current time: 2015-12-24 13:41:52.305594, Running time: 8:55:34.735380
+Current Seq_Num:1705792000, Current Match Date:2015-11-12 08:39:52 
+Current Request: 9000, Current time: 2015-12-24 14:59:37.243843, Running time: 10:13:19.673629
+Current Seq_Num:1705979963, Current Match Date:2015-11-12 11:06:04 
+Current Request: 10000, Current time: 2015-12-24 16:17:02.472719, Running time: 11:30:44.902505
+Current Seq_Num:1706164802, Current Match Date:2015-11-12 12:46:23 
+Current Request: 10009, Current time: 2015-12-25 22:01:44.755988, Running time: 0:11:59.904696
+Current Request: 11000, Current time: 2015-12-25 23:52:26.844078, Running time: 2:02:41.992786
+Current Seq_Num:1706349508, Current Match Date:2015-11-12 14:10:55 
+Current Request: 12000, Current time: 2015-12-26 01:28:52.465238, Running time: 3:39:07.613946
+Current Seq_Num:1706527874, Current Match Date:2015-11-12 16:18:44 
+Current Request: 13000, Current time: 2015-12-26 03:05:41.595242, Running time: 5:15:56.743950
+Current Seq_Num:1706695772, Current Match Date:2015-11-12 18:29:56 
+Current Request: 14000, Current time: 2015-12-26 04:42:44.861185, Running time: 6:53:00.009893
+Current Seq_Num:1706857568, Current Match Date:2015-11-12 20:38:11 
+Current Request: 15000, Current time: 2015-12-26 06:19:45.222831, Running time: 8:30:00.371539
+Current Seq_Num:1707023411, Current Match Date:2015-11-13 00:36:53 
+Current Request: 16000, Current time: 2015-12-26 07:56:39.999999, Running time: 10:06:55.148707
+Current Seq_Num:1707207991, Current Match Date:2015-11-13 05:12:36 
+Current Request: 16265, Current time: 2015-12-26 08:44:15.180535, Running time: 0:19:53.103819
+Current Request: 17000, Current time: 2015-12-26 11:38:03.683972, Running time: 3:13:41.607256
+Current Seq_Num:1707393636, Current Match Date:2015-11-13 08:51:26 
+Current Request: 18000, Current time: 2015-12-26 14:45:34.651659, Running time: 6:21:12.574943
+Current Seq_Num:1707580165, Current Match Date:2015-11-13 11:58:54 
+Current Request: 19000, Current time: 2015-12-26 17:57:21.398102, Running time: 9:32:59.321386
+Current Seq_Num:1707763131, Current Match Date:2015-11-13 13:21:46 
+Current Request: 20000, Current time: 2015-12-26 20:55:06.818168, Running time: 12:30:44.741452
+Current Seq_Num:1707942982, Current Match Date:2015-11-13 15:03:46 
+Current Request: 21000, Current time: 2015-12-26 23:53:35.836406, Running time: 15:29:13.759690
+Current Seq_Num:1708112740, Current Match Date:2015-11-13 16:51:15 
+Current Request: 22000, Current time: 2015-12-27 02:51:46.468131, Running time: 18:27:24.391415
+Current Seq_Num:1708277328, Current Match Date:2015-11-13 18:46:11 
+Current Request: 23000, Current time: 2015-12-27 07:40:50.578257, Running time: 23:16:28.501541
+Current Seq_Num:1708435673, Current Match Date:2015-11-13 21:30:47 
+Current Request: 24000, Current time: 2015-12-27 10:38:46.623716, Running time: 1 day, 2:14:24.547000
+Current Seq_Num:1708599974, Current Match Date:2015-11-14 01:21:20 
+Current Request: 25000, Current time: 2015-12-27 13:35:33.165615, Running time: 1 day, 5:11:11.088899
+Current Seq_Num:1708782926, Current Match Date:2015-11-14 04:18:01 
+Current Request: 26000, Current time: 2015-12-27 16:34:16.345334, Running time: 1 day, 8:09:54.268618
+Current Seq_Num:1708962790, Current Match Date:2015-11-14 06:29:50 
+Current Request: 27000, Current time: 2015-12-27 19:33:24.737447, Running time: 1 day, 11:09:02.660731
+Current Seq_Num:1709137367, Current Match Date:2015-11-14 08:37:36 
+Current Request: 28000, Current time: 2015-12-27 22:30:06.083429, Running time: 1 day, 14:05:44.006713
+Current Seq_Num:1709315988, Current Match Date:2015-11-14 10:50:53 
+Current Request: 29000, Current time: 2015-12-28 01:26:42.173766, Running time: 1 day, 17:02:20.097050
+Current Seq_Num:1709496688, Current Match Date:2015-11-14 12:26:57 
+Current Request: 30000, Current time: 2015-12-28 04:23:13.528923, Running time: 1 day, 19:58:51.452207
+Current Seq_Num:1709674964, Current Match Date:2015-11-14 13:36:51 
+Current Request: 31000, Current time: 2015-12-28 07:20:11.737853, Running time: 1 day, 22:55:49.661137
+Current Seq_Num:1709850957, Current Match Date:2015-11-14 15:00:05 
+Current Request: 32000, Current time: 2015-12-28 10:17:36.585933, Running time: 2 days, 1:53:14.509217
+Current Seq_Num:1710026079, Current Match Date:2015-11-14 16:38:45 
+Current Request: 33000, Current time: 2015-12-28 13:14:46.237562, Running time: 2 days, 4:50:24.160846
+Current Seq_Num:1710195437, Current Match Date:2015-11-14 18:36:44 
+Current Request: 34000, Current time: 2015-12-28 16:24:50.244422, Running time: 2 days, 8:00:28.167706
+Current Seq_Num:1710356175, Current Match Date:2015-11-14 20:36:12 
+Current Request: 35000, Current time: 2015-12-28 19:22:35.408655, Running time: 2 days, 10:58:13.331939
+Current Seq_Num:1710515168, Current Match Date:2015-11-14 22:56:35 
+Current Request: 36000, Current time: 2015-12-28 22:20:07.383235, Running time: 2 days, 13:55:45.306519
+Current Seq_Num:1710688146, Current Match Date:2015-11-15 02:11:58 
+Current Request: 37000, Current time: 2015-12-29 01:17:07.569022, Running time: 2 days, 16:52:45.492306
+Current Seq_Num:1710873172, Current Match Date:2015-11-15 05:08:46 
+Current Request: 38000, Current time: 2015-12-29 04:13:47.586751, Running time: 2 days, 19:49:25.510035
+Current Seq_Num:1711049001, Current Match Date:2015-11-15 07:08:10 
+Current Request: 38223, Current time: 2015-12-31 07:34:41.500441, Running time: 0:50:24.889503
+Current Request: 39000, Current time: 2015-12-31 11:02:55.524245, Running time: 4:18:38.913307
+Current Seq_Num:1712803582, Current Match Date:2015-11-16 04:11:10 
+Current Request: 40000, Current time: 2015-12-31 14:01:31.354304, Running time: 7:17:14.743366
+Current Seq_Num:1714939471, Current Match Date:2015-11-17 11:59:35 
+Current Request: 41000, Current time: 2015-12-31 17:06:03.726553, Running time: 10:21:47.115615
+Current Seq_Num:1717108775, Current Match Date:2015-11-18 17:47:16 
+Current Request: 42000, Current time: 2015-12-31 20:03:58.199513, Running time: 13:19:41.588575
+Current Seq_Num:1719314893, Current Match Date:2015-11-20 03:52:57 
+Current Request: 43000, Current time: 2015-12-31 23:01:21.643653, Running time: 16:17:05.032715
+Current Seq_Num:1721454843, Current Match Date:2015-11-21 06:45:53 
+Current Request: 44000, Current time: 2016-01-01 01:58:30.822159, Running time: 19:14:14.211221
+Current Seq_Num:1723639050, Current Match Date:2015-11-22 06:41:20 
+Current Request: 45000, Current time: 2016-01-01 04:56:00.458897, Running time: 22:11:43.847959
+Current Seq_Num:1725725997, Current Match Date:2015-11-23 07:41:39 
+Current Request: 46000, Current time: 2016-01-01 07:52:47.492545, Running time: 1 day, 1:08:30.881607
+Current Seq_Num:1727882228, Current Match Date:2015-11-24 11:49:32 
+Current Request: 47000, Current time: 2016-01-01 10:49:49.298730, Running time: 1 day, 4:05:32.687792
+Current Seq_Num:1730081211, Current Match Date:2015-11-25 16:06:03 
+Current Request: 48000, Current time: 2016-01-01 13:46:59.080342, Running time: 1 day, 7:02:42.469404
+Current Seq_Num:1732258298, Current Match Date:2015-11-26 21:42:10 
+Current Request: 49000, Current time: 2016-01-01 16:50:31.829651, Running time: 1 day, 10:06:15.218713
+Current Seq_Num:1734390680, Current Match Date:2015-11-28 01:42:37 
+Current Request: 50000, Current time: 2016-01-01 19:47:54.186023, Running time: 1 day, 13:03:37.575085
+Current Seq_Num:1736591159, Current Match Date:2015-11-29 02:03:33 
+Current Request: 51000, Current time: 2016-01-01 22:45:13.544862, Running time: 1 day, 16:00:56.933924
+Current Seq_Num:1738761868, Current Match Date:2015-11-30 03:27:10 
+Current Request: 52000, Current time: 2016-01-02 01:42:30.144862, Running time: 1 day, 18:58:13.533924
+Current Seq_Num:1740921891, Current Match Date:2015-12-01 10:46:11 
+Current Request: 53000, Current time: 2016-01-02 04:39:44.197285, Running time: 1 day, 21:55:27.586347
+Current Seq_Num:1743099446, Current Match Date:2015-12-02 15:33:50 
+Current Request: 54000, Current time: 2016-01-02 07:36:52.313405, Running time: 2 days, 0:52:35.702467
+Current Seq_Num:1745227838, Current Match Date:2015-12-03 20:25:24 
+Current Request: 55000, Current time: 2016-01-02 10:35:05.712698, Running time: 2 days, 3:50:49.101760
+Current Seq_Num:1747406291, Current Match Date:2015-12-05 02:03:11 
+Current Request: 56000, Current time: 2016-01-02 13:33:01.733735, Running time: 2 days, 6:48:45.122797
+Current Seq_Num:1749531623, Current Match Date:2015-12-06 00:33:13 
+Current Request: 57000, Current time: 2016-01-02 16:30:54.792272, Running time: 2 days, 9:46:38.181334
+Current Seq_Num:1751717449, Current Match Date:2015-12-07 01:41:42 
+Current Request: 58000, Current time: 2016-01-02 19:28:26.914246, Running time: 2 days, 12:44:10.303308
+Current Seq_Num:1753904953, Current Match Date:2015-12-08 08:37:42 
+Current Request: 59000, Current time: 2016-01-02 22:26:47.348558, Running time: 2 days, 15:42:30.737620
+Current Seq_Num:1756101555, Current Match Date:2015-12-09 12:51:56 
+Current Request: 60000, Current time: 2016-01-03 01:23:45.184258, Running time: 2 days, 18:39:28.573320
+Current Seq_Num:1758277116, Current Match Date:2015-12-10 16:58:47 
+Current Request: 61000, Current time: 2016-01-03 04:21:06.237369, Running time: 2 days, 21:36:49.626431
+Current Seq_Num:1760471066, Current Match Date:2015-12-11 21:35:09 
+Current Request: 62000, Current time: 2016-01-03 07:18:23.635804, Running time: 3 days, 0:34:07.024866
+Current Seq_Num:1762637769, Current Match Date:2015-12-12 20:49:14 
+Current Request: 63000, Current time: 2016-01-03 10:15:51.189282, Running time: 3 days, 3:31:34.578344
+Current Seq_Num:1764796645, Current Match Date:2015-12-13 20:23:32 
+Current Request: 64000, Current time: 2016-01-03 13:14:37.215927, Running time: 3 days, 6:30:20.604989
+Current Seq_Num:1766962559, Current Match Date:2015-12-15 04:03:53 
+Current Request: 65000, Current time: 2016-01-03 16:20:04.016660, Running time: 3 days, 9:35:47.405722
+Current Seq_Num:1769146617, Current Match Date:2015-12-16 09:17:35 
+Current Request: 66000, Current time: 2016-01-03 19:17:59.324355, Running time: 3 days, 12:33:42.713417
+Current Seq_Num:1771303552, Current Match Date:2015-12-17 12:11:26 
+Current Request: 67000, Current time: 2016-01-03 22:15:34.000162, Running time: 3 days, 15:31:17.389224
+Current Seq_Num:1773382134, Current Match Date:2015-12-18 13:06:49 
+Current Request: 68000, Current time: 2016-01-04 01:12:46.475269, Running time: 3 days, 18:28:29.864331
+Current Seq_Num:1775576845, Current Match Date:2015-12-19 13:12:21 

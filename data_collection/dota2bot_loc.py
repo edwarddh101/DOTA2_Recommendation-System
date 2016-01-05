@@ -4,6 +4,7 @@ import datetime
 import json
 import pdb
 from time import sleep
+import random
 
 ## Need to move the global variable to set up function
 
@@ -12,7 +13,7 @@ filename = 'match_history_sample.json'
 initial_req_num = 0
 initial_seq_num = 1704401237
 initial_date = datetime.datetime(2015, 11, 11, 0)
-last_match_date = datetime.datetime(2015, 11, 13, 0)
+last_match_date = datetime.datetime(2015, 12, 16, 0)
 
 #set up dota2api
 api = dota2api.Initialise(logging=True)
@@ -89,7 +90,7 @@ def get_match_history(start_match_seq_num):
     if gmh['status'] != 1:
         print gmh['statusDetail']
     else:
-        sleep(1.0)
+        sleep(2.0)
         with open(filename, mode='a') as feedsjson:
             json.dump(gmh, feedsjson)
             feedsjson.write('\n')
@@ -100,22 +101,23 @@ def main():
     n, start_match_seq_num, start_match_date = check_next_insert_match(filename)
 
     while start_match_date < last_match_date:
-        sleep(1.0)
+        sleep(2.0)
         try:
             gmh = get_match_history(start_match_seq_num)
-            start_match_seq_num = check_current_match_info(gmh)[0] + 1
+# Add random number after 38,000 request intent to get 1/20 data
+            start_match_seq_num = check_current_match_info(gmh)[0] + random.randint(1,4000)
 
         except:
             e = sys.exc_info()[0]
             with open('error_message.txt', 'a') as f:
                 f.write("error:{0} \n".format(e))
 
-            sleep(10.0)
+            sleep(30.0)
             continue
 
         n+=1
-        if n % 100 == 0:
-            sleep(10.0)
+        if n % 1000 == 0:
+            sleep(5400.0)
             log_time(n)
             log_match_info(gmh)
 
