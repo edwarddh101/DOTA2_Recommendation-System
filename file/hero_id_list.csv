@@ -1,0 +1,112 @@
+,id,localized_name,name
+0,1,Anti-Mage,npc_dota_hero_antimage
+1,2,Axe,npc_dota_hero_axe
+2,3,Bane,npc_dota_hero_bane
+3,4,Bloodseeker,npc_dota_hero_bloodseeker
+4,5,Crystal Maiden,npc_dota_hero_crystal_maiden
+5,6,Drow Ranger,npc_dota_hero_drow_ranger
+6,7,Earthshaker,npc_dota_hero_earthshaker
+7,8,Juggernaut,npc_dota_hero_juggernaut
+8,9,Mirana,npc_dota_hero_mirana
+9,11,Shadow Fiend,npc_dota_hero_nevermore
+10,10,Morphling,npc_dota_hero_morphling
+11,12,Phantom Lancer,npc_dota_hero_phantom_lancer
+12,13,Puck,npc_dota_hero_puck
+13,14,Pudge,npc_dota_hero_pudge
+14,15,Razor,npc_dota_hero_razor
+15,16,Sand King,npc_dota_hero_sand_king
+16,17,Storm Spirit,npc_dota_hero_storm_spirit
+17,18,Sven,npc_dota_hero_sven
+18,19,Tiny,npc_dota_hero_tiny
+19,20,Vengeful Spirit,npc_dota_hero_vengefulspirit
+20,21,Windranger,npc_dota_hero_windrunner
+21,22,Zeus,npc_dota_hero_zuus
+22,23,Kunkka,npc_dota_hero_kunkka
+23,25,Lina,npc_dota_hero_lina
+24,31,Lich,npc_dota_hero_lich
+25,26,Lion,npc_dota_hero_lion
+26,27,Shadow Shaman,npc_dota_hero_shadow_shaman
+27,28,Slardar,npc_dota_hero_slardar
+28,29,Tidehunter,npc_dota_hero_tidehunter
+29,30,Witch Doctor,npc_dota_hero_witch_doctor
+30,32,Riki,npc_dota_hero_riki
+31,33,Enigma,npc_dota_hero_enigma
+32,34,Tinker,npc_dota_hero_tinker
+33,35,Sniper,npc_dota_hero_sniper
+34,36,Necrophos,npc_dota_hero_necrolyte
+35,37,Warlock,npc_dota_hero_warlock
+36,38,Beastmaster,npc_dota_hero_beastmaster
+37,39,Queen of Pain,npc_dota_hero_queenofpain
+38,40,Venomancer,npc_dota_hero_venomancer
+39,41,Faceless Void,npc_dota_hero_faceless_void
+40,42,Wraith King,npc_dota_hero_skeleton_king
+41,43,Death Prophet,npc_dota_hero_death_prophet
+42,44,Phantom Assassin,npc_dota_hero_phantom_assassin
+43,45,Pugna,npc_dota_hero_pugna
+44,46,Templar Assassin,npc_dota_hero_templar_assassin
+45,47,Viper,npc_dota_hero_viper
+46,48,Luna,npc_dota_hero_luna
+47,49,Dragon Knight,npc_dota_hero_dragon_knight
+48,50,Dazzle,npc_dota_hero_dazzle
+49,51,Clockwerk,npc_dota_hero_rattletrap
+50,52,Leshrac,npc_dota_hero_leshrac
+51,53,Nature's Prophet,npc_dota_hero_furion
+52,54,Lifestealer,npc_dota_hero_life_stealer
+53,55,Dark Seer,npc_dota_hero_dark_seer
+54,56,Clinkz,npc_dota_hero_clinkz
+55,57,Omniknight,npc_dota_hero_omniknight
+56,58,Enchantress,npc_dota_hero_enchantress
+57,59,Huskar,npc_dota_hero_huskar
+58,60,Night Stalker,npc_dota_hero_night_stalker
+59,61,Broodmother,npc_dota_hero_broodmother
+60,62,Bounty Hunter,npc_dota_hero_bounty_hunter
+61,63,Weaver,npc_dota_hero_weaver
+62,64,Jakiro,npc_dota_hero_jakiro
+63,65,Batrider,npc_dota_hero_batrider
+64,66,Chen,npc_dota_hero_chen
+65,67,Spectre,npc_dota_hero_spectre
+66,69,Doom,npc_dota_hero_doom_bringer
+67,68,Ancient Apparition,npc_dota_hero_ancient_apparition
+68,70,Ursa,npc_dota_hero_ursa
+69,71,Spirit Breaker,npc_dota_hero_spirit_breaker
+70,72,Gyrocopter,npc_dota_hero_gyrocopter
+71,73,Alchemist,npc_dota_hero_alchemist
+72,74,Invoker,npc_dota_hero_invoker
+73,75,Silencer,npc_dota_hero_silencer
+74,76,Outworld Devourer,npc_dota_hero_obsidian_destroyer
+75,77,Lycan,npc_dota_hero_lycan
+76,78,Brewmaster,npc_dota_hero_brewmaster
+77,79,Shadow Demon,npc_dota_hero_shadow_demon
+78,80,Lone Druid,npc_dota_hero_lone_druid
+79,81,Chaos Knight,npc_dota_hero_chaos_knight
+80,82,Meepo,npc_dota_hero_meepo
+81,83,Treant Protector,npc_dota_hero_treant
+82,84,Ogre Magi,npc_dota_hero_ogre_magi
+83,85,Undying,npc_dota_hero_undying
+84,86,Rubick,npc_dota_hero_rubick
+85,87,Disruptor,npc_dota_hero_disruptor
+86,88,Nyx Assassin,npc_dota_hero_nyx_assassin
+87,89,Naga Siren,npc_dota_hero_naga_siren
+88,90,Keeper of the Light,npc_dota_hero_keeper_of_the_light
+89,91,Io,npc_dota_hero_wisp
+90,92,Visage,npc_dota_hero_visage
+91,93,Slark,npc_dota_hero_slark
+92,94,Medusa,npc_dota_hero_medusa
+93,95,Troll Warlord,npc_dota_hero_troll_warlord
+94,96,Centaur Warrunner,npc_dota_hero_centaur
+95,97,Magnus,npc_dota_hero_magnataur
+96,98,Timbersaw,npc_dota_hero_shredder
+97,99,Bristleback,npc_dota_hero_bristleback
+98,100,Tusk,npc_dota_hero_tusk
+99,101,Skywrath Mage,npc_dota_hero_skywrath_mage
+100,102,Abaddon,npc_dota_hero_abaddon
+101,103,Elder Titan,npc_dota_hero_elder_titan
+102,104,Legion Commander,npc_dota_hero_legion_commander
+103,106,Ember Spirit,npc_dota_hero_ember_spirit
+104,107,Earth Spirit,npc_dota_hero_earth_spirit
+105,109,Terrorblade,npc_dota_hero_terrorblade
+106,110,Phoenix,npc_dota_hero_phoenix
+107,111,Oracle,npc_dota_hero_oracle
+108,105,Techies,npc_dota_hero_techies
+109,112,Winter Wyvern,npc_dota_hero_winter_wyvern
+110,113,Arc Warden,npc_dota_hero_arc_warden
