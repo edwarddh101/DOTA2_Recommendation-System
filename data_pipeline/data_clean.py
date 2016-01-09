@@ -20,7 +20,7 @@ class Data_process(object):
                  raw_file='data_collection/match_history_t_part',
                  matches_csv='file/matches_csv',
                  players_csv='file/players_csv',
-                 heroes_csv='file/heroes_csv',
+                 heroes_csv='file/heroes_csv_t',
                  human_players=10,
                  lobby_type=[0,7],
                  game_mode=[1,2,3,5,22]
@@ -82,12 +82,12 @@ class Data_process(object):
         df_all = self.df_qualify.copy()
         df_players = df_all.pop('players')
         df_matches = df_all
-        df_players_10 = pd.DataFrame(df_players.tolist())
+        df_players_10 = pd.DataFrame(df_players.tolist(),index=df_players.index)
         df_heroes = df_players_10.applymap(lambda x: x['hero_id'])
         df_heroes = pd.concat([df_heroes,
-                               df_matches['radiant_win'],
-                               df_matches['match_id']],
-                               axis =1)
+                              df_matches[['radiant_win','match_id']]],
+                              axis =1,
+                              )
 
         return df_heroes, df_players, df_matches
 
