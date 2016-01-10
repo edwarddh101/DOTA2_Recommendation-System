@@ -17,10 +17,10 @@ class Data_process(object):
     and players' information.
     '''
     def __init__(self,
-                 raw_file='data_collection/match_history_t_part',
+                 raw_file='data_collection/match_history_full',
                  matches_csv='file/matches_csv',
                  players_csv='file/players_csv',
-                 heroes_csv='file/heroes_csv_t',
+                 heroes_csv='file/heroes_csv',
                  human_players=10,
                  lobby_type=[0,7],
                  game_mode=[1,2,3,5,22]
