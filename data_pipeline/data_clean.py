@@ -1,20 +1,15 @@
-'''
-Pre-process the data from JSON file
-    - Data Storage, MongoDB (Optional)
-    - Pandas DataFrame
-    - Save the DataFrame to csv
-    - Build a psql database via csv files
-'''
-
-import json
 import pandas as pd
-import numpy as np
-import pdb
+
 
 class Data_process(object):
     '''
     Process the raw data JSON file and create two csv files for matches detail
     and players' information.
+    Pre-process the data from JSON file
+        - Data Storage, MongoDB (Optional)
+        - Pandas DataFrame
+        - Save the DataFrame to csv
+        - Build a psql database via csv files
     '''
     def __init__(self,
                  raw_file='data_collection/match_history_full',
@@ -22,18 +17,18 @@ class Data_process(object):
                  players_csv='file/players_csv',
                  heroes_csv='file/heroes_csv',
                  human_players=10,
-                 lobby_type=[0,7],
-                 game_mode=[1,2,3,5,22]
+                 lobby_type=[0, 7],
+                 game_mode=[1, 2, 3, 5, 22]
                  ):
         self.raw_file = raw_file
-        self.matches_csv=matches_csv
-        self.players_csv=players_csv
-        self.heroes_csv=heroes_csv
-        self.human_players=human_players
-        self.lobby_type=lobby_type
-        self.game_mode=game_mode
-        self.df=self.json_to_df()
-        self.df_qualify=self.qualify_matches()
+        self.matches_csv = matches_csv
+        self.players_csv = players_csv
+        self.heroes_csv = heroes_csv
+        self.human_players = human_players
+        self.lobby_type = lobby_type
+        self.game_mode = game_mode
+        self.df = self.json_to_df()
+        self.df_qualify = self.qualify_matches()
 
     def json_to_df(self):
         '''
@@ -47,7 +42,7 @@ class Data_process(object):
                 match_json_array.append(line)
 
         t = map(lambda x: pd.read_json(x), match_json_array)
-        df = pd.concat(t,ignore_index=True)
+        df = pd.concat(t, ignore_index=True)
         df = pd.DataFrame(df.matches.tolist())
 
         return df
@@ -66,7 +61,7 @@ class Data_process(object):
                   4. Player time:
         '''
         df_qualify = self.df.copy()
-        df_qualify = df_qualify[df_qualify['human_players']==self.human_players]
+        df_qualify = df_qualify[df_qualify['human_players'] == self.human_players]
         df_qualify = df_qualify[df_qualify['lobby_type'].isin(self.lobby_type)]
         df_qualify = df_qualify[df_qualify['game_mode'].isin(self.game_mode)]
 
@@ -82,11 +77,12 @@ class Data_process(object):
         df_all = self.df_qualify.copy()
         df_players = df_all.pop('players')
         df_matches = df_all
-        df_players_10 = pd.DataFrame(df_players.tolist(),index=df_players.index)
+        df_players_10 = pd.DataFrame(df_players.tolist(),
+                                     index=df_players.index)
         df_heroes = df_players_10.applymap(lambda x: x['hero_id'])
         df_heroes = pd.concat([df_heroes,
-                              df_matches[['radiant_win','match_id']]],
-                              axis =1,
+                              df_matches[['radiant_win', 'match_id']]],
+                              axis=1,
                               )
 
         return df_heroes, df_players, df_matches
