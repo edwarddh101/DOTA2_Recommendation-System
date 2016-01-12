@@ -9,16 +9,17 @@
 import numpy as np
 import ast
 # import pandas as pd
-# from sklearn import cross_validation, linear_model
+from sklearn import cross_validation
 # from sklearn.ensemble import RandomForestClassifier
 # from sklearn.grid_search import GridSearchCV
 
 
 class Dota2_model(object):
     def __init__(self,
-                 file='file/heroes_csv',
+                 file='file/heroes_csv_sample',
                  max_hero_id=113,
-                 invalid_heroes_id=[24, 108, 113]):
+                 invalid_heroes_id=[24, 108, 113]
+                 ):
         self.file = file
         self.max_hero_id = max_hero_id
         self.invalid_heroes_id = invalid_heroes_id
@@ -39,7 +40,8 @@ class Dota2_model(object):
         x_raw = x_raw + rad_dir
         for id in x_raw:
             x[id] = 1
-        invalid_heroes = self.invalid_heroes_id * 2 + self.rad_dir(len(self.invalid_heroes_id))
+        invalid_heroes = self.invalid_heroes_id * 2 \
+                       + self.rad_dir(len(self.invalid_heroes_id))
         x = np.delete(x, invalid_heroes - 1)
         return x, y
 
@@ -54,14 +56,14 @@ class Dota2_model(object):
                 y.append(_y)
         return X, y
 
-    def logistic(self):
-        '''
-        '''
-        pass
+    def train_test_split(self):
+        X, y = self.csv_transform()
+        return cross_validation.train_test_split(X, y, test_size=0.8)
 
-    def randomforest(self):
+    def model_training(self):
         '''
         '''
+        X_train, X_test, y_train, y_test = self.train_test_split()
         pass
 
     def roc_curve():
