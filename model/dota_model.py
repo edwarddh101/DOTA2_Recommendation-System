@@ -1,10 +1,11 @@
-""" Class for model training and storage. Procedures:
+'''
+Class for model training and storage. Procedures:
     1. Generate Feature matrixes from database/csv file
     2. Model training_logistic and random forest
     3. Performance comparison_ROC curve and accuracy
     prediction on test data
     4. Store the model
-"""
+'''
 import pickle
 import numpy as np
 import ast
