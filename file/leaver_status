@@ -1,0 +1,18 @@
+Leaver_status:
+{
+DOTA_LEAVER_NONE = 0;
+DOTA_LEAVER_DISCONNECTED = 1;
+DOTA_LEAVER_DISCONNECTED_TOO_LONG = 2;
+DOTA_LEAVER_ABANDONED = 3;
+DOTA_LEAVER_AFK = 4;
+DOTA_LEAVER_NEVER_CONNECTED = 5;
+DOTA_LEAVER_NEVER_CONNECTED_TOO_LONG = 6;
+}
+in my experience, the TOO_LONG ones means they actually counted as abandons.
+my interpretation:
+1 - player dc
+2 - player dc, left for longer than 5 mins, and is counted as abandoned
+3 - player dc, and manually clicked on leave game, counted as abandon
+4 - player is afk (no xp in certain time period)
+5 - player never connected
+6 - player never connected, game went on for some time and is counted as abandon (not sure about this one)
