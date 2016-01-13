@@ -5,15 +5,16 @@
     prediction on test data
     4. Store the model
 """
-
+import pickle
 import numpy as np
 import ast
 from sklearn import cross_validation
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
 from sklearn.metrics import roc_curve, roc_auc_score
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-import pickle
 
 
 class Dota2_model(object):
