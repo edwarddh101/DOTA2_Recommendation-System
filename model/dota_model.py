@@ -102,24 +102,23 @@ class Dota2_model(object):
         '''
         classifiers, y_scores, auc_score = self.model_training()
         X_train, X_test, y_train, y_test = self.train_test_split()
-        fpr_tpr = []
         plt.figure(num=None, figsize=(12, 9), dpi=800,
                    facecolor='w', edgecolor='k')
         plt.plot([0, 1], [0, 1], '--', color=(0.6, 0.6, 0.6), label='Luck')
         for i in range(len(classifiers)):
-            fpr_tpr.append(roc_curve(y_test, y_scores[i])[:-1])
+            fpr, tpr, _ = roc_curve(y_test, y_scores[i])
             if i == 0:
-                plt.plot(fpr_tpr[i][0], fpr_tpr[i][1],
+                plt.plot(fpr, tpr,
                          '-', c='r', lw=1,
                          label='Logistic ROC (area = %0.2f)'
                          % auc_score[i])
             if i == 1:
-                plt.plot(fpr_tpr[i][0], fpr_tpr[i][1],
+                plt.plot(fpr, tpr,
                          'k--', lw=1,
                          label='RandomForest ROC (area = %0.2f)'
                          % auc_score[i])
             if i == 2:
-                plt.plot(fpr_tpr[i][0], fpr_tpr[i][1],
+                plt.plot(fpr, tpr,
                          '-.', lw=1,
                          label='AdaBoosting ROC (area = %0.2f)'
                          % auc_score[i])
