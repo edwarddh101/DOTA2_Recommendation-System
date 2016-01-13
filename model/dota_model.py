@@ -5,20 +5,21 @@
     prediction on test data
     4. Store the model
 """
-
+import pickle
 import numpy as np
 import ast
 from sklearn import cross_validation
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
 from sklearn.metrics import roc_curve, roc_auc_score
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-import pickle
 
 
 class Dota2_model(object):
     def __init__(self,
-                 file='file/heroes_csv_sample',
+                 file='file/heroes_csv',
                  max_hero_id=113,
                  invalid_heroes_id=[24, 108, 113]
                  ):
@@ -129,7 +130,7 @@ class Dota2_model(object):
         plt.ylabel('True Positive Rate')
         plt.title('Receiver operating characteristic_model comparison')
         plt.legend(loc="lower right")
-        plt.savefig('file/roc_curve_model_comparison')
+        plt.savefig('file/roc_curve_model_comparison_full')
 
     def main(self):
         '''
