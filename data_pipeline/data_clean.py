@@ -12,10 +12,10 @@ class Data_process(object):
         - Build a psql database via csv files
     '''
     def __init__(self,
-                 raw_file='data_collection/match_history_sample.json',
+                 raw_file='data_collection/match_history_full',
                  matches_csv='file/matches_csv',
                  players_csv='file/players_csv',
-                 heroes_csv='file/heroes_csv_sample',
+                 heroes_csv='file/heroes_csv',
                  human_players=10,
                  lobby_type=[0, 7],
                  game_mode=[1, 2, 3, 5, 22]
