@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 
 class Dota2_model(object):
     def __init__(self,
-                 file='file/heroes_csv',
+                 file='file/heroes_csv_sample',
                  max_hero_id=113,
                  invalid_heroes_id=[24, 108, 113]
                  ):
